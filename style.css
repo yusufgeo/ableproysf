@@ -46,14 +46,16 @@ justify-content: flex-end;
 
 
 
-ul li a{
-    color: rgb(0, 0, 0);
+ul li a:hover{
+    color: blue;
     text-decoration: none;
-    margin: 15px;
+
     font-size: 20px;
     display: flex;
     justify-content: space-around;
 }
+
+
 
 
 .btn{
@@ -66,7 +68,7 @@ text-decoration: none;
     border: 1px solid rgb(0, 255, 76);
     background-color: rgb(0, 255, 76);
     padding: 10px;
-    border-radius: 25%;
+    border-radius: 20px;
  }
 
 .wrapper{
@@ -150,6 +152,7 @@ text-decoration: none;
 .icon14{
     border-right: 1px solid gray;
 }
+
 .title2{
     margin-top: 100px;
 }
@@ -157,4 +160,12 @@ text-decoration: none;
     margin-top: 15px;
     font-size: medium;
     font-weight: 50;
+}
+.tailwind-icon{
+    display:flex;
+    justify-content: flex-start;
+}
+.tailwind-items{
+    display: flex;
+    justify-content:flex-start
 }
